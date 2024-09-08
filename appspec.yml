@@ -1,7 +1,7 @@
 version: 0.0
 os: linux
 files:
-  - source: /
+  - source: /builds/
     destination: /var/www/oriserve_react
 hooks:
   BeforeInstall:
