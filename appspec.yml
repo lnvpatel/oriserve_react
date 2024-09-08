@@ -2,7 +2,7 @@ version: 0.0
 os: linux
 files:
   - source: /
-    destination: /var/www/my-new-app
+    destination: /var/www/oriserve_react
 hooks:
   BeforeInstall:
     - location: scripts/install_dependencies.sh
