@@ -6,11 +6,11 @@ yum update
 yum install -y nodejs npm
 
 echo "Creating application directory..."
-sudo mkdir -p /var/www/my-new-app
+sudo mkdir -p /var/www/oriserve_react
 
 # Install project-specific dependencies
 echo "Installing Node.js dependencies..."
-cd /var/www/my-new-app || exit
+cd /var/www/oriserve_react || exit
 npm cache clean --force
 rm -rf node_modules
 
