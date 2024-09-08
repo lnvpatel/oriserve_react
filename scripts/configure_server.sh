@@ -4,7 +4,7 @@
 echo "Configuring server..."
 
 # Example: Setting permissions
-chown -R www-data:www-data /var/www/my-new-app
+chown -R www-data:www-data /var/www/oriserve_react
 chmod -R 755 /var/www/my-new-app
 
 # Example: Environment variable setup (replace with actual values)
