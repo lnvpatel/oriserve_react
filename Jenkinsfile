@@ -10,7 +10,7 @@ pipeline {
         AWS_CREDENTIALS = 'AWS_JENKINS' // Jenkins AWS credentials ID
         AWS_REGION = 'ap-south-1'
         S3_BUCKET_NAME = 'oriservereact'
-        LOCAL_FILE_PATH = '/var/lib/jenkins/workspace/oriserve_web_pipeline/build.zip' // Path to the local build artifact
+        LOCAL_FILE_PATH = "${WORKSPACE}/build.zip" // Path to the local build artifact
         S3_FILE_PATH = 'builds/build.zip' // Path in S3 bucket
     }
 
