@@ -52,7 +52,7 @@ pipeline {
             steps {
                 script {
                     // Create the zip file of the build directory
-                    sh 'cd .. && zip -r build.zip .'
+                    sh 'zip -r build.zip .'
                 }
             }
         }
