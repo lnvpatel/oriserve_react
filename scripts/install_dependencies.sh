@@ -10,7 +10,7 @@ sudo mkdir -p /var/www/oriserve_react
 
 # Install project-specific dependencies
 echo "Installing Node.js dependencies..."
-cd /var/www/oriserve_react || exit
+cd /var/www/oriserve_react/builds || exit
 npm cache clean --force
 rm -rf node_modules
 
