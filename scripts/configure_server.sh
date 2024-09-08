@@ -4,8 +4,8 @@
 echo "Configuring server..."
 
 # Example: Setting permissions
-chown -R www-data:www-data /var/www/oriserve_react
-chmod -R 755 /var/www/oriserve_react
+chown -R www-data:www-data /var/www/oriserve_react/bulds
+chmod -R 755 /var/www/oriserve_react/builds
 
 # Example: Environment variable setup (replace with actual values)
 export NODE_ENV=production
