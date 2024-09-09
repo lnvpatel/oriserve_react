@@ -3,10 +3,10 @@ os: linux
 
 files:
   - source: /builds    # This reflects the extracted contents from builds/build.zip
-    destination: /var/www/oriservereact # Destination directory on the instance (you can modify this)
+    destination: /var/www/oriserve_react # Destination directory on the instance (you can modify this)
 
 permissions:
-  - object: /var/www/oriservereact
+  - object: /var/www/oriserve_react
     pattern: "**"
     owner: root
     group: root
